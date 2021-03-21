@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Social Racing</string>
+    <string name="title_activity_runconfig">MainActivity</string>
+    <string name="title_race_configuration">Race Configuration</string>
+    <string name="title_teams">Teams</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="Distance">
+        <item>1 Km</item>
+        <item>2 Km</item>
+        <item>3 Km</item>
+        <item>4 Km</item>
+        <item>5 Km</item>
+        <item>6 Km</item>
+    </string-array>
+
+
+    <string-array name="Teams">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="Individuals">
+        <item>Ross</item>
+        <item>Monica</item>
+        <item>Roshni</item>
+        <item>Goku</item>
+    </string-array>
+    <string name="title_activity_final_stats">FinalStats</string>
+    <string name="tab_text_1">Team Stats</string>
+    <string name="tab_text_2">Individual Stats</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
