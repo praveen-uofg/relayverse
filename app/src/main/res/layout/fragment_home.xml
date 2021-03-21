@@ -24,13 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/textView"
+        android:entries="@array/Distance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintHorizontal_bias="0.317"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.176"
-        android:entries="@array/Distance"/>
+        app:layout_constraintVertical_bias="0.157" />
 
     <TextView
         android:id="@+id/textView2"
@@ -47,17 +47,16 @@
 
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="48dp"
-        android:layout_height="43dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignBottom="@id/spinner"
+        android:entries="@array/Teams"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364"
-        android:entries="@array/Teams"/>
-
+        app:layout_constraintVertical_bias="0.333" />
 
     <Button
         android:id="@+id/button3"

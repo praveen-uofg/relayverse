@@ -14,7 +14,7 @@ class CompleteActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button2)
         button.setOnClickListener{
-            val intent = Intent(this, IndividualStat::class.java)
+            val intent = Intent(this, FinalStats::class.java)
             startActivity(intent)
         }
     }
